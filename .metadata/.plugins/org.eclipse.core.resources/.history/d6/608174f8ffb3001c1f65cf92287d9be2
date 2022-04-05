@@ -1,0 +1,12 @@
+package com.capg.mymap;
+
+public class car {
+		public static void main(String[]agrs)
+		int price= 3000000;
+		String brand = "BMW";
+		String colour= "Black";
+		car= new car();
+		System.out.println("price is 3000000");
+		System.out.println("brand name is BMW");
+		System.out.println("colour is Black ");
+}

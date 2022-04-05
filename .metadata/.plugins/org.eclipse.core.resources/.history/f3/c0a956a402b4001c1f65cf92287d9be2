@@ -1,0 +1,23 @@
+package com.capg.mymap.mobile;
+
+public class mobile1main {
+	public class UserLogic {
+		public static void main(String[] args) {
+			HashMap<String,Car> map=new HashMap<String,Car>();
+			
+			CarExample c1=new CarExample("A1","black",150);
+			map.put("Audi",c1);
+			
+			CarExample c2=new CarExample("A8","white",180);
+			map.put("BMW", c2);
+			
+			CarExample c3=new CarExample("range","Black",120);
+			map.put("range rover", c3);
+			
+			System.out.println("the given car details are");
+				 System.out.println(map);
+				 
+		}
+
+	}
+}

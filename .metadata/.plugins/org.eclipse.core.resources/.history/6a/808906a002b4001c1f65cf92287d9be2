@@ -1,0 +1,63 @@
+package com.capg.mymap.mobile;
+
+public class mobile1 {
+
+	    String model;
+	    String color;
+	    int battery;
+		public mobile1(String model, String color, int battery) {
+			super();
+			this.model = model;
+			this.color = color;
+			this.battery = battery;
+		}
+		public String getModel() {
+			return model;
+		}
+		public void setModel(String model) {
+			this.model = model;
+		}
+		public String getColor() {
+			return color;
+		}
+		public void setColor(String color) {
+			this.color = color;
+		}
+		public int getbattery() {
+			return battery;
+		}
+		public void setbattery(int battery) {
+			this.battery = battery;
+		}
+		 public String toString() {
+		        return "Model:" + this.model +" Color:"+color+" battery:"+battery;
+		    }
+	   
+}
+public class mobile{
+	public static void main(String[] args) {
+		
+		public class mobile {
+			public static void main(String[] args) {
+				HashMap<String,mobile> map=new HashMap<String,mobile>();
+				
+				mobile c1=new mobile("G40","black",4500);
+				map.put("Motorola",c1);
+				
+				mobile c2=new mobile("G60","white",5000);
+				map.put("Nokia", c2);
+				
+				mobile c3=new mobile("13pro max","Green",4000);
+				map.put("Apple", c3);
+				
+				System.out.println("the given mobile details are");
+					 System.out.println(map);
+					 
+			}
+
+		}
+	}
+	}
+
+}
+

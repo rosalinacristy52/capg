@@ -1,0 +1,5 @@
+package com.capg.DAY4;
+
+public interface price {
+
+}
